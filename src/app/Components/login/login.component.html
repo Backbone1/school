@@ -1,0 +1,24 @@
+
+<body style="background-color: lavenderblush;">
+    
+<div class="container">
+<form class="ui form" style="padding-left: 330pt;padding-top: 100pt;">
+    <h2>Login to School Dashboard</h2><br>
+    <div class="field">
+      <label>User Name</label>
+      <input type="text" name="username" placeholder="User Name" [(ngModel)]="username" style="width:30%" >
+    </div>
+    <div class="field">
+      <label>Password</label>
+      <input type="password" name="password" placeholder="Password" [(ngModel)]="password" style="width:30%">
+    </div>
+    <!-- <div class="field">
+      <div class="ui checkbox">
+        <input type="checkbox" tabindex="0" class="hidden">
+        <label>I agree to the Terms and Conditions</label>
+      </div>
+    </div> -->
+    <button class="ui primary button" type="submit" (click)=login()>Submit</button>
+  </form>
+</div>
+</body>

@@ -1,0 +1,13 @@
+#content {
+    
+    width: 700px;
+    height:auto;
+    float:unset;
+  }     
+  
+  #sidebar {
+    
+    width: 200px;
+    height:auto;
+    float:left;
+  }
